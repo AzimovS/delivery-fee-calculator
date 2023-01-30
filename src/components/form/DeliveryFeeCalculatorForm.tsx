@@ -104,7 +104,6 @@ const DeliveryFeeCalculatorForm: React.FC = () => {
               name='cartValue'
               type='number'
               value={values.cartValue}
-              defaultValue={0}
               onChange={handleChange}
               onBlur={handleBlur}
               error={!!errors['cartValue']}
@@ -116,7 +115,6 @@ const DeliveryFeeCalculatorForm: React.FC = () => {
               name='deliveryDistance'
               type='number'
               value={values.deliveryDistance}
-              defaultValue={0}
               onChange={handleChange}
               onBlur={handleBlur}
               error={!!errors['deliveryDistance']}
@@ -130,7 +128,6 @@ const DeliveryFeeCalculatorForm: React.FC = () => {
               name='numberOfItems'
               type='number'
               value={values.numberOfItems}
-              defaultValue={0}
               onChange={handleChange}
               onBlur={handleBlur}
               error={!!errors['numberOfItems']}
