@@ -11,12 +11,12 @@ import {
   Typography,
 } from '@mui/material';
 import { format } from 'date-fns';
-import DeliveryFeeCalculatorForm from './components/deliveryFeeCalculatorForm/DeliveryFeeCalculatorForm';
+import DeliveryFeeCalculatorForm from './components/form/DeliveryFeeCalculatorForm';
 
 const mdTheme = createTheme();
 
 function App() {
-  
+
   return (
     <ThemeProvider theme={mdTheme}>
       <Box sx={{ display: 'flex' }}>
@@ -42,7 +42,7 @@ function App() {
                     p: 2,
                     display: 'flex',
                     flexDirection: 'column',
-                    height: 500,
+                    height: 600,
                     textAlign: 'center',
                   }}
                 >
