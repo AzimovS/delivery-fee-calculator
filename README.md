@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+<h3 align="center">Delivery Fee Calculator</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    App using React and TypeScript
+    <br />
+    <br />
+    <a href="https://delivery-fee-calculator-hazel.vercel.app//">View Demo</a>
+  </p>
+<!-- ABOUT THE PROJECT -->
 
-## Available Scripts
+## About The Project
+![image](https://user-images.githubusercontent.com/35425540/216142567-9ddfef48-dc96-4813-bbfb-0ab7a789f342.png)
 
-In the project directory, you can run:
 
-### `npm start`
+The task of this project is to build a delivery fee calculator. This code is required to display the delivery fee to the customer once they have completed their shopping. The delivery fee calculation is based on factors such as the total cost of the items in the cart, the quantity of items, the time the order is placed, and the distance the items need to be delivered.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Requirements
 
-### `npm test`
+* Persist the pilot information for 10 minutes since their drone was last seen by the equipment
+* Display the closest confirmed distance to the nest
+* Contain the pilot name, email address and phone number
+* Immediately show the information from the last 10 minutes to anyone opening the application
+* Not require the user to manually refresh the view to see up-to-date information
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
 
-### `npm run build`
+* [TypeScript](https://www.typescriptlang.org/)
+* [React](https://reactjs.org/)
+* [Material UI](https://material-ui.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```sh
+   npm install && npm start
+   ```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Notes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- This project was created for Wolt Summer 2023 Engineering Internship as the preliminary assignment
