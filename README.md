@@ -12,7 +12,7 @@
 ![image](https://user-images.githubusercontent.com/35425540/216142567-9ddfef48-dc96-4813-bbfb-0ab7a789f342.png)
 
 
-The task of this project is to build a delivery fee calculator. This code is required to display the delivery fee to the customer once they have completed their shopping. The delivery fee calculation is based on factors such as the total cost of the items in the cart, the quantity of items, the time the order is placed, and the distance the items need to be delivered.
+The task of this project is to build a delivery fee calculator. This code is required to display the delivery fee to the customer once they have completed their shopping. The delivery fee calculation is based on factors such as the total cost of the items in the cart, the quantity of items, the time the order is placed, and the distance the items need to be delivered. [Link](https://delivery-fee-calculator-hazel.vercel.app/) to the demo.
 
 
 ### Built With
