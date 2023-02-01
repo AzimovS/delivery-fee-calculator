@@ -15,14 +15,6 @@
 The task of this project is to build a delivery fee calculator. This code is required to display the delivery fee to the customer once they have completed their shopping. The delivery fee calculation is based on factors such as the total cost of the items in the cart, the quantity of items, the time the order is placed, and the distance the items need to be delivered.
 
 
-### Requirements
-
-* Persist the pilot information for 10 minutes since their drone was last seen by the equipment
-* Display the closest confirmed distance to the nest
-* Contain the pilot name, email address and phone number
-* Immediately show the information from the last 10 minutes to anyone opening the application
-* Not require the user to manually refresh the view to see up-to-date information
-
 ### Built With
 
 * [TypeScript](https://www.typescriptlang.org/)
