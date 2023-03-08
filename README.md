@@ -27,8 +27,3 @@ The task of this project is to build a delivery fee calculator. This code is req
    ```sh
    npm install && npm start
    ```
-
-
-## Notes
-
-- This project was created for Wolt Summer 2023 Engineering Internship as the preliminary assignment
